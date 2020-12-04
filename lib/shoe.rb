@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.include?(brand){|x|  : BRANDS<<brand}
+    BRANDS.map{|x|  : BRANDS<<brand}
   end
 
 
