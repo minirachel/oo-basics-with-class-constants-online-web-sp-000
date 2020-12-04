@@ -6,12 +6,8 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-        BRANDS << brand
+    BRANDS.include?{|x| : <<brand}
   end
-  # 
-  # def brand=(brand)
-  #
-  # end
 
 
 
