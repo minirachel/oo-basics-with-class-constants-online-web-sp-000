@@ -6,7 +6,9 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.map{|x|  : BRANDS<<brand}
+    if BRANDS.none?(brand)
+      BRANDS << brand
+    end
   end
 
 
